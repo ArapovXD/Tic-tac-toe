@@ -11,7 +11,7 @@ class field:
             self.field[i][0] = i
         self.field[0][0] = " "
 
-        self.to_win = int(min(self.x, self.y) * 0.6) + 5
+        self.to_win = int(min(self.x, self.y) * 0.6) 
 
 
 
